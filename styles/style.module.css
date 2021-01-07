@@ -2,28 +2,60 @@
   width: 100%;
   height: 80px;
   background-color: #fff;
+  margin: 30px 0;
 }
 
 .headerInner{
   width: 960px;
   margin: 0 auto;
   height: 80px;
+  line-height: 80px;
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  
 }
 
 .headerInner h1{
   width: 960px;
   margin: 0 auto;
-  
 }
 
 .headerInner nav ul{
  display: flex; 
+ text-align: center;
 }
 
 .headerInner nav ul li{
  width: 80px;
- padding-top: 10px;
 }
+.headerInner nav ul li:last-child{
+  padding-right: 0;
+}
+
+
+/* mainCSS */
+
+.mainInner{
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ccc;
+  height: auto;
+  position: relative;
+}
+
+.mainInner img{
+  height: auto;
+  width: 960px; 
+}
+.mainContainer h2{
+  font-size: 2.5rem;
+  padding-right: 80px;
+  color: #fff;
+  position:absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  margin: auto;
+}
+

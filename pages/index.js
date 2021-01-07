@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <header className={styles.header}>
         <div className={styles.headerInner}>
-          <h1>Portfolio</h1>
+          <h1><a href="#">Portfolio</a></h1>
           <nav>
             <ul>
               <li><a href="#">あああ</a></li>
@@ -25,7 +25,12 @@ export default function Home() {
         </div>
       </header>
       <main>
-        
+        <div className={styles.mainInner}>
+          <img src="/img/top.jpeg" alt="トップ画像"/>
+          <div className={styles.mainContainer}>
+            <h2>Tokuyama Shouta<br/>Portfolio</h2>
+          </div>
+        </div>
       </main>
 
       {/* <div>

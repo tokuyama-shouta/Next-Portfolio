@@ -23,11 +23,11 @@ a:hover {
   border-bottom: 2px solid black;
   cursor: pointer;
 }
-
+/* 
 img {
   max-width: 100%;
   display: block;
-}
+} */
 
 li{
   list-style:none;

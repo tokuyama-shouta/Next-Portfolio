@@ -1,88 +1,15 @@
-.header{
-  width: 100%;
-  height: 80px;
-  background-color: #fff;
-  margin: 30px 0;
-}
 
-.headerInner{
-  width: 960px;
-  margin: 0 auto;
-  height: 80px;
-  line-height: 80px;
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.headerInner h1{
-  width: 960px;
-  margin: 0 auto;
-}
-
-.headerInner nav ul{
- display: flex; 
- text-align: center;
-}
-
-.headerInner nav ul li{
- width: 80px;
-}
-.headerInner nav ul li:last-child{
-  padding-right: 0;
-}
 
 
 /* mainCSS */
 
 .mainInner{
-  width: 960px;
-  margin: 0 auto;
-  height: auto;
-  position: relative;
+  width: 100%;
+  height: 1000px;
+  background: url(https://mechsys.tec.u-ryukyu.ac.jp/~oshiro/SiteList/wp-content/uploads/2020/04/bg-blue.png) no-repeat;
+  background-size: contain;
+  
 }
-
-.mainInner img{
-  height: auto;
-  width: 960px; 
-}
-.mainContainer h2{
-  font-size: 2.5rem;
-  padding-right: 80px;
-  color: #fff;
-  position:absolute;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  margin: auto;
-}
-
-.mainWrapper{
-  width: 960px;
-  margin: 250px auto 150px auto;
-  text-align: center;
-}
-.mainWrapperBox{
-  border:4px solid black;
-  text-align: center;
-  height: 800px;
-}
-.mainWrapperBox img{
-  border-radius: 50%;
-  border:4px solid black;
-  display: inline-block;
-  margin-top: -100px;
-  margin-bottom: 50px;
-  width: 200px;
-  height: 200px;
-}
-
-.mainWrapperBox ul li {
-  margin-bottom: 30px;
-  font-size: 24px;
-}
-
 
 
 
